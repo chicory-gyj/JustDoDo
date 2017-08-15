@@ -1,0 +1,9 @@
+#!/usr/bin/python
+
+def foo(x,y,z,m=0,n=0):
+    print x,y,z,m,n
+
+def call_foo(*args,**kwd):
+    print 'Calling foo!'
+
+foo(*args,**kwd)
